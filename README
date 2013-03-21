@@ -1,0 +1,19 @@
+SO - Tema 0: HashTable
+Neacsu Mihai 331CA
+
+------------------------------------------------------------------------------
+Implementarea HashTable-ului am realizat-o printr-o lista de liste pentru a
+rezolva coliziunile care apar in urma obtinerii aceleasi valorii din rularea
+functie de hash.
+
+Am construit mai intai o lista dublu inlantuita ale carei noduri contine cuvantul
+si are pointeri spre nodurile precedente si urmatoare din lista. Hash-ul contine
+un array alocat dinamic de pointeri la liste.
+Am folosit preponderent assert() pentru a rezolva eventuale greseli de scriere
+a surselor. Singurele dificultati de care m-am lovit au fost minore, am uitat
+sa inchid un fisier pentru scrierea unui anumit index; inchiderea fisierului se
+facea chiar si asa la terminarea programului insa anumite linii erau amestecate
+pentru ca nu fusese bufferul golit la momentul corespunzator.
+
+Nu am insistat pe comentarii in surse pentru ca am considerat ca este un cod clar
+si usor de inteles la prima vedere.
