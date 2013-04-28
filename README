@@ -8,4 +8,8 @@ functie de hash.
 
 Hash-ul contine un array alocat dinamic de pointeri la liste.
 Lista este dublu inlantuita si are noduri care contin cuvantul
-si pointeri spre nodurile precedente si urmatoare din lista. 
+si pointeri spre nodurile precedente si urmatoare din lista.
+
+Variabile sunt declarate la inceputul blocului in care urmeaza sa fie folosite
+pentru ca asa cere std c89.
+Tema ruleaza fara modificari, atat pe Windows, cat si pe Linux.
